@@ -38,6 +38,11 @@ body {
     overflow: auto;
 }
 
+.projContainer{
+    float: left;
+    margin-right: 10px;
+}
+
 h1{
     color: #4aaaa5;
     margin: 0px 10px 25px;
@@ -45,6 +50,23 @@ h1{
     border-bottom: 2px solid #cccccc;
     font-weight: bolder;
     font-size: 22px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    line-height: 33px;
+}
+
+h4{
+    font-size: 14px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+h2{
+    color: #4aaaa5;
+    margin: 0px 10px 25px;
+    padding: auto 25px 20px;
+    border-bottom: 2px solid #cccccc;
+    font-weight: bolder;
+    font-size: 16px;
     font-family: Georgia, Times, 'Times New Roman', serif;
     line-height: 33px;
     
@@ -151,3 +173,23 @@ footer{
     margin-top: 30px;
     bottom: 0;
 }
+
+@media only screen and (max-width: 990px) {
+        body{
+            margin: 0 auto;
+            overflow: auto;
+        }
+        .mainContainer{
+            max-width: 500px;
+            max-width: 100%;
+            margin: 0 auto;
+            overflow: auto;
+            margin-bottom: 50px;
+        }
+}
+
+  @media only screen and (max-width: 600px) {
+  }
+
+  @media only screen and (max-width: 600px) {
+  }
